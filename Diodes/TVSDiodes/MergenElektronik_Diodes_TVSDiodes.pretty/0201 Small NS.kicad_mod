@@ -1,15 +1,15 @@
-(footprint "0402 Small NS"
+(footprint "0201 Small NS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TVS Diode 0402 Small No Silkscreen")
+	(descr "TVS Diode 0201 Small No Silkscreen")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5a049d23-b849-416d-bc06-41bc4bbe2082")
+		(uuid "32678490-1d36-4b1c-9b14-113e9465e793")
 		(effects
 			(font
 				(size 1 1)
@@ -17,12 +17,12 @@
 			)
 		)
 	)
-	(property "Value" "0402 Small No Silkscreen"
+	(property "Value" "0201 Small  NS"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "786e43e1-dc53-457a-94af-4cfd355e6ea3")
+		(uuid "8a947b25-40b3-483b-a6b7-c67db2680bcf")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9386f7f1-c8d5-4977-af68-82a223a64961")
+		(uuid "6e274083-386c-4b73-9395-031a963e3366")
 		(effects
 			(font
 				(size 1 1)
@@ -43,12 +43,12 @@
 			)
 		)
 	)
-	(property "Description" "TVS Diode 0402 Small No Silkscreen"
+	(property "Description" "TVS Diode 0201 Small No Silkscreen"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e2e22a0b-d834-4a69-b94b-333b3ff5e85e")
+		(uuid "d13169e8-31b6-4279-be46-207e0d848f74")
 		(effects
 			(font
 				(size 1 1)
@@ -58,43 +58,42 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 2.5 0.6 0)
+		(at -0.1 1.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c7a0397a-e8f8-43b2-8f29-e8309ef8f56f")
+		(uuid "7f42a2e1-8ba0-450f-a1de-630e012558ff")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.08)
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left)
 		)
 	)
 	(pad "1" smd rect
-		(at 0 -0.3)
-		(size 0.4 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(at -0.3 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.1)
-		(thermal_bridge_angle 45)
-		(uuid "adca72aa-c260-43d5-8888-e744f67b4a9b")
+		(uuid "49a39f8b-5c5c-41a0-b525-f217342d9e24")
 	)
 	(pad "2" smd rect
-		(at 1 -0.3)
-		(size 0.4 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(at 0.3 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.1)
-		(thermal_bridge_angle 45)
-		(uuid "8b0757f6-168e-4e59-a89a-a0b196423280")
+		(uuid "dff0760a-400e-4290-a696-03805d42fbd3")
 	)
 	(embedded_fonts no)
-	(model "D:/Belgeler/Mergen Elektronik/Altium/3Ds/Libraries/Diodes/TVS Diodes/MergenElektronik_Diodes_TVSDiodes_0402.step"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Diodes/TVSDiodes/MergenElektronik_Diodes_TVSDiodes_0201.step"
 		(offset
-			(xyz 0.5 0.3 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

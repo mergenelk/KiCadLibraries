@@ -1,15 +1,15 @@
-(footprint "0402 Large"
+(footprint "0402 Large NS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TVS Diode 0402 Large")
+	(descr "TVS Diode 0402 Large No Silkscreen")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c5b988a6-f23c-4d90-be83-f9462a6f7e5e")
+		(uuid "5a049d23-b849-416d-bc06-41bc4bbe2082")
 		(effects
 			(font
 				(size 1 1)
@@ -17,12 +17,12 @@
 			)
 		)
 	)
-	(property "Value" "0402 Large"
+	(property "Value" "0402 Large No Silkscreen"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a51b99b5-bbd4-4213-9863-4859c3c23ceb")
+		(uuid "786e43e1-dc53-457a-94af-4cfd355e6ea3")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "08cd44ff-c59b-476c-b362-9f0b5007c8d5")
+		(uuid "9386f7f1-c8d5-4977-af68-82a223a64961")
 		(effects
 			(font
 				(size 1 1)
@@ -43,12 +43,12 @@
 			)
 		)
 	)
-	(property "Description" "TVS Diode 0402 Large"
+	(property "Description" "TVS Diode 0402 Large No Silkscreen"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c868dee0-fbb3-4bb7-8ce0-a85fc3f4b7ed")
+		(uuid "e2e22a0b-d834-4a69-b94b-333b3ff5e85e")
 		(effects
 			(font
 				(size 1 1)
@@ -57,58 +57,8 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.55 -0.8)
-		(end -0.55 0.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "211b46d1-44fa-440a-8e16-f0f75f3530cc")
-	)
-	(fp_line
-		(start -0.55 0.2)
-		(end -0.25 0.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "0f1f3b1b-c20b-41d2-97a6-0039b8c7e5f8")
-	)
-	(fp_line
-		(start -0.3 0.2)
-		(end 1.55 0.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7e16e266-52fe-423c-a010-71b47bb25d07")
-	)
-	(fp_line
-		(start 1.55 -0.8)
-		(end -0.55 -0.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9d83521e-d144-4784-a1fe-db6deffac3fd")
-	)
-	(fp_line
-		(start 1.55 0.2)
-		(end 1.55 -0.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a4ae008f-1e79-4beb-bce3-7f39a10d3afe")
-	)
 	(fp_text user "${REFERENCE}"
-		(at -0.5 0.7 0)
+		(at -0.55 0.55 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c7a0397a-e8f8-43b2-8f29-e8309ef8f56f")
@@ -137,7 +87,7 @@
 		(uuid "8b0757f6-168e-4e59-a89a-a0b196423280")
 	)
 	(embedded_fonts no)
-	(model "D:/Belgeler/Mergen Elektronik/Altium/3Ds/Libraries/Diodes/TVS Diodes/MergenElektronik_Diodes_TVSDiodes_0402.step"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Diodes/TVSDiodes/MergenElektronik_Diodes_TVSDiodes_0402.step"
 		(offset
 			(xyz 0.5 0.3 0)
 		)

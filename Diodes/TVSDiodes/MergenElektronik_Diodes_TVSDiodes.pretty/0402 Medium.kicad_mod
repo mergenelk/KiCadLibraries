@@ -1,9 +1,9 @@
-(footprint "0402 Small "
+(footprint "0402 Medium"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TVS Diode 0402 Small")
+	(descr "TVS Diode 0402 Medium")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "0402 Small "
+	(property "Value" "0402 Medium"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -43,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" "TVS Diode 0402 Small"
+	(property "Description" "TVS Diode 0402 Medium"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -58,8 +58,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.4 -0.8)
-		(end -0.4 0.2)
+		(start -0.5 -0.8)
+		(end -0.5 0.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -68,7 +68,7 @@
 		(uuid "211b46d1-44fa-440a-8e16-f0f75f3530cc")
 	)
 	(fp_line
-		(start -0.4 0.2)
+		(start -0.5 0.2)
 		(end -0.3 0.2)
 		(stroke
 			(width 0.1)
@@ -79,7 +79,7 @@
 	)
 	(fp_line
 		(start -0.3 0.2)
-		(end 1.4 0.2)
+		(end 1.5 0.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "7e16e266-52fe-423c-a010-71b47bb25d07")
 	)
 	(fp_line
-		(start 1.4 -0.8)
-		(end -0.4 -0.8)
+		(start 1.5 -0.8)
+		(end -0.5 -0.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "9d83521e-d144-4784-a1fe-db6deffac3fd")
 	)
 	(fp_line
-		(start 1.4 0.2)
-		(end 1.4 -0.8)
+		(start 1.5 0.2)
+		(end 1.5 -0.8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -108,7 +108,7 @@
 		(uuid "a4ae008f-1e79-4beb-bce3-7f39a10d3afe")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.3 0.7 0)
+		(at -0.5 0.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c7a0397a-e8f8-43b2-8f29-e8309ef8f56f")
@@ -122,7 +122,7 @@
 	)
 	(pad "1" smd rect
 		(at 0 -0.3)
-		(size 0.4 0.6)
+		(size 0.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(thermal_bridge_angle 45)
@@ -130,14 +130,14 @@
 	)
 	(pad "2" smd rect
 		(at 1 -0.3)
-		(size 0.4 0.6)
+		(size 0.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "8b0757f6-168e-4e59-a89a-a0b196423280")
 	)
 	(embedded_fonts no)
-	(model "D:/Belgeler/Mergen Elektronik/Altium/3Ds/Libraries/Diodes/TVS Diodes/MergenElektronik_Diodes_TVSDiodes_0402.step"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Diodes/TVSDiodes/MergenElektronik_Diodes_TVSDiodes_0402.step"
 		(offset
 			(xyz 0.5 0.3 0)
 		)
