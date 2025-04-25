@@ -127,7 +127,7 @@
 		(uuid "8b84dea9-51f3-40cd-85b7-bf1f8acf6a1e")
 	)
 	(embedded_fonts no)
-	(model "D:/Belgeler/Mergen Elektronik/Altium/3Ds/Libraries/Resistors/Chip Resistor/MergenElektronik_Resistors_ChipResistors_0603.stp"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Resistors/ChipResistor/MergenElektronik_Resistors_ChipResistors_0603.stp"
 		(offset
 			(xyz 0.8 0.4 0)
 		)

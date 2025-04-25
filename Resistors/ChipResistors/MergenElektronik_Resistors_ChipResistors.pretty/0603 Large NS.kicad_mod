@@ -1,9 +1,9 @@
-(footprint "0603 Small NS"
+(footprint "0603 Large NS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Resistor 0603 Small No Silkscreen")
+	(descr "Resistor 0603 Large No Silkscreen")
 	(property "Reference" "REF**"
 		(at 0 -0.3 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "0603 Small No Silkscreen"
+	(property "Value" "0603 Large No Silkscreen"
 		(at -0.1 0.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -43,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" "Resistor 0603 Small No Silkscreen"
+	(property "Description" "Resistor 0603 Large No Silkscreen"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -71,23 +71,23 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0.15 -0.4)
-		(size 0.6 0.8)
+		(at 0 -0.4)
+		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "f8ba4eb4-04d3-41f4-82f1-a94bd2378a3c")
 	)
 	(pad "2" smd rect
-		(at 1.45 -0.4)
-		(size 0.6 0.8)
+		(at 1.6 -0.4)
+		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "20e1a77d-44a8-4ca7-8b8f-e65eaf092501")
 	)
 	(embedded_fonts no)
-	(model "D:/Belgeler/Mergen Elektronik/Altium/3Ds/Libraries/Resistors/Chip Resistor/MergenElektronik_Resistors_ChipResistors_0603.stp"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Resistors/ChipResistor/MergenElektronik_Resistors_ChipResistors_0603.stp"
 		(offset
 			(xyz 0.8 0.4 0)
 		)
