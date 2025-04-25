@@ -97,6 +97,17 @@
 		(layer "F.SilkS")
 		(uuid "1fb3c765-4cc6-4e32-baa7-682e0640e556")
 	)
+	(fp_circle
+		(center -0.2 0.2)
+		(end -0.15 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "84692a24-9162-4e49-91e9-1a0d3300b746")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -0.5 0 90)
 		(unlocked yes)
@@ -151,7 +162,7 @@
 		(uuid "eb3c2ada-9c24-4aaf-9f32-45cc68ad5dc7")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/ekrem/Desktop/TMP235A4DCKR.step"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Sensors/Temperature/MergenElektronik_Sensors_Temperature_SC-70-5.step"
 		(offset
 			(xyz 1 0.61 0)
 		)
