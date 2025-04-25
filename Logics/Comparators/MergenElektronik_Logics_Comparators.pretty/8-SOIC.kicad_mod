@@ -186,7 +186,18 @@
 		(uuid "492500e0-11d1-4971-9701-a387f68fa989")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/ekrem/Desktop/LM211DT.step"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Logics/Comparators/MergenElektronik_Logics_Comparators_SOIC-8-LM211DT_.step"
+		(offset
+			(xyz 2 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Logics/Comparators/MergenElektronik_Logics_Comparators_SOIC-8.step"
 		(offset
 			(xyz 2 2.5 0)
 		)
