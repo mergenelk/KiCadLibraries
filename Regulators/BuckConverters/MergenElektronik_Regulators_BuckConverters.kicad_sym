@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MergenElektronik_Regulators_BuckConverters:MergenElektronik_Regulators_BuckConverters_SOT-23-6"
+		(property "Footprint" "MergenElektronik_Regulators_BuckConverters:SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -686,7 +686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MergenElektronik_Regulators_BuckConverters:MergenElektronik_Regulators_BuckConverters_SOT-23-6"
+		(property "Footprint" "MergenElektronik_Regulators_BuckConverters:SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font

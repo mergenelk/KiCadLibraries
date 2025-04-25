@@ -1,8 +1,9 @@
-(footprint "MergenElektronik_Regulators_BuckConverters_SOT-23-6"
+(footprint "SOT-23-6"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "SOT-23-6")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -16,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MergenElektronik_Regulators_BuckConverters_SOT-23-6"
+	(property "Value" "SOT-23-6"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -42,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "SOT-23-6"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -169,7 +170,7 @@
 		(uuid "8e056f8b-8bf1-4bab-8f52-03df2135dcbb")
 	)
 	(embedded_fonts no)
-	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Regulators/Buck Converters/MergenElektronik_Regulators_BuckConverters_SOT-23-6.step"
+	(model "D:/Belgeler/Mergen Elektronik/KiCad/3Ds/Libraries/Regulators/BuckConverters/MergenElektronik_Regulators_BuckConverters_SOT-23-6.step"
 		(offset
 			(xyz 0.8 1.45 0)
 		)

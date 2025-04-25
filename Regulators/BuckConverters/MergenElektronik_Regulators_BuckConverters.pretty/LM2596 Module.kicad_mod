@@ -1,0 +1,160 @@
+(footprint "LM2596 Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LM2596 Module")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2bfd9682-e5ad-4ba4-ba3b-7d7855c2eb5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM2596 Module"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2285c97f-415d-4492-8647-f2be898d4b5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1db3c592-a9ed-4cd0-9ddd-688cd3b1d0ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LM2596 Module"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9b34175-571b-4f6f-bc7c-93c77520bb9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -21)
+		(end 43.2 -21)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dddc0b11-8eaa-4ced-a363-16920f0bffae")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -21)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9b2a944-217b-49f3-938e-0ff408f8cccd")
+	)
+	(fp_line
+		(start 43.2 -21)
+		(end 43.2 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "717abb80-4e79-43b9-a5d8-efd44ec5e919")
+	)
+	(fp_line
+		(start 43.2 0)
+		(end 0 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebf98e62-17b1-42b8-b605-01d7b4efee43")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.3 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32fa6405-e6fe-4676-ba36-6297b26fa5d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1.9 -19.1)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "43583ea0-640c-4f56-b5d1-09322511f698")
+	)
+	(pad "2" thru_hole rect
+		(at 1.9 -1.9)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f6a47ea0-e3ca-40ab-b1a6-9b5cdc3e459e")
+	)
+	(pad "3" thru_hole rect
+		(at 41.3 -19.1)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "2d0c57bd-1a7d-417d-af21-af1f0756a5b8")
+	)
+	(pad "4" thru_hole rect
+		(at 41.3 -1.9)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "17a12364-1535-4e51-a3ad-a6f9eb7140c2")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/ekrem/Downloads/LM2596 DC-DC stepdown voltage converter.step"
+		(offset
+			(xyz 21.5 10 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
